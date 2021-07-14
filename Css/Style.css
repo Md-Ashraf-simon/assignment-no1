@@ -61,7 +61,7 @@ button>i {
 button:hover {
     background: #d600a8;
     box-shadow: 0px 2px 30px rgba(172, 77, 14, 0.664);
-    /* transform: translateX(5px) translateY(-7px); */
+    
     transition: .5s;
     font-size: 20px;
     padding: 15px 25px;
@@ -263,6 +263,63 @@ footer h6 {
 
     .celebration__img img {
         width: 230px;
+        height: 200px;
+    }
+
+}
+/* Tablet Devices some element placement fix */
+
+@media (max-width: 812px) and (min-width: 601px) {
+    .hero__section {
+        padding: 50px 20px;
+    }
+
+    .players__card {
+        width: 90%;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .hero__left h1 {
+        font-size: 24px;
+        line-height: 40px;
+    }
+
+    .hero__right {
+        float: left;
+    }
+
+    .hero__right img {
+        width: 300px;
+        height: 250px;
+    }
+
+    .football__section {
+        width: 100px;
+        height: 30px;
+    }
+
+    .football__section h3 {
+        font-size: 16px;
+    }
+
+    .football__section img {
+        width: 16px;
+        height: 16px;
+        margin-right: 5px;
+
+    }
+
+    .celebration__text h1 {
+        font-size: 20px;
+        line-height: 27px;
+    }
+
+    .celebration__text p {
+        font-size: 12px;
+    }
+
+    .celebration__img img {
+        width: 250px;
         height: 200px;
     }
 
