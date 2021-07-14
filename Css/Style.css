@@ -109,5 +109,59 @@ body {
 
 
 
+/* media quary */
+
+@media only screen and (max-width: 688px) {
+
+    .top-content {
+        display: block;
+        background: cadetblue;
+    
+    } 
+    .area-1 {
+        margin-bottom: 60px;
+        margin-left: 60px;    
+    }
+    .top-content .area-2 img {
+         width: 100%;
+    }
+    /* All players blog area   */
+    .all-top-players {
+        width: 100%;
+        margin-left: 33%;
+    }
+    .top-players {
+          display: inline-block;
+          grid-template-columns: none;
+          grid-column-gap:0;
+          grid-row-gap:0;
+    }
+     /* .players img {
+         width: 0%;
+     } */
+  
+    .blogs {
+        width: 100%;
+        margin: 20px auto;  
+    }
+    .players {
+        margin-bottom: 45px;
+        padding: 15px;
+    }
+    .pl
+     /* footer are  */
+     /* .footer-area img {
+         width: 0;
+     } */
+     .footer-area {
+        width: 50%;
+        margin: 0 auto;
+        justify-content: center;
+     }
+
+}
+            
+
+
 
 
