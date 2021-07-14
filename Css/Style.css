@@ -120,9 +120,18 @@ button:hover {
 
 .card>img {
     width: 100%;
-}
+} 
 
  /* extra section  */
+   #t-3-players {
+       text-align: center;
+   }
+.margin-zero-auto {
+    margin: 0 auto;
+}
+
+
+ /* end area  */
  .celebration__section {
     background: var(--background-color);
     display: flex;
@@ -135,12 +144,6 @@ button:hover {
     margin-left: 5%;
 
 }
-
-.celebration__text p {
-    color: white;
-    margin-bottom: 50px;
-}
-
 .celebration__img img {
     width: 100%;
     height: 450px;
@@ -166,6 +169,7 @@ button:hover {
 
 
 
+
 /* Footer area */
 
 footer {
@@ -187,28 +191,6 @@ footer {
 footer h6 {
     margin: 20px auto;
 }
-
-
-/* .footer-area {
-    text-align: center;
-}
-.footer-area img {
-    width: 483px;
-}
-.social-icons {
-    width: 170px;
-    margin: 0 auto;
-}
-.social-icons i {
-    padding: 10px;
-    background-color: #E7E7E8;
-    border-radius: 18px;
-    color: #969BAB;
-}
-.copy-right-area {
-    font-size: 18px; */
-/* } */
-
 
 
 /* media quary */
