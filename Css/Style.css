@@ -123,6 +123,11 @@ button:hover {
 } 
 
  /* extra section  */
+ #color {
+    color: #001fff;
+    font-size: 40px;
+
+ }
    #t-3-players {
        text-align: center;
    }
